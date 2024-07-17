@@ -48,7 +48,7 @@
         margin: inherit;
         gap: 20px;
     }
-    .run_left_item h1 {
+    .run_left_item h1, .training h1 {
         font-size: 2rem;
     }
     .run_left_item{
@@ -56,6 +56,9 @@
     }
     .run_right_item{
         width: 50%;
+    }
+    .t3 {
+        transform: scale(1.5);
     }
 }
 
@@ -78,7 +81,11 @@
     }
 
     .banner {
-        padding-top: 0;
+        padding: 0;
+    }
+
+    .banner_button_container {
+        justify-content: center;
     }
 
     .miama {
@@ -97,7 +104,7 @@
         top: 1rem;
     }
     .btn {
-        padding: 12px 16px;
+        padding: 12px 18px;
         min-width: inherit;
     }
     .habit_container {
@@ -119,7 +126,33 @@
     .run_right_item{
         width: 100%;
     }
-    .run {
+    .run, .habit {
         padding-top: 0;
+    }
+    .t_overlay-3 , .t_overlay-6{
+        display: none;
+    }
+    .training_container {
+        grid-template-columns: 1fr 1fr;
+    }
+    .t2, .t4 {
+        transform: scale(1.5);
+    }
+    .training_container_2 {
+        display: grid;
+        grid-template-columns: 0.9fr 1.1fr;
+    }
+    .t_overlay-1 span, .t_overlay-5 span {
+        bottom: 20px;
+        left: 10px;
+    }
+    .t_overlay-4 span {
+        top: 75px;
+        right: 0;
+        left: 10px;
+    }
+    .t_overlay-2 span {
+        top: 15px;
+        left: 15px;
     }
 }
