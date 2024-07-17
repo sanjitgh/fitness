@@ -4,15 +4,122 @@
     .container{
         max-width: 1060px;
     }
+    .banner_card_1 {
+        left: 3rem;
+    }
 }
 
 /* tablet responsive */
-@media screen and (min-width:576px) and (max-width:992px) {
-    
+@media screen and (max-width:992px) {
+    .container{
+        padding: 0 15px;
+    }
+    .banner_left_item {
+        width: 100%;
+    }
+    .banner_right_item {
+        width: 100%;
+    }
+    .banner_container {
+        flex-direction: column;
+        padding: 0 60px;
+        gap: 50px;
+    }
+    .banner_right_item {
+        justify-content: center;
+    }
+    .banner_card_1 {
+        left: 13rem;
+        top: 22rem;
+    }
+    .banner_card_1, .banner_card_2{
+        width: auto;
+        padding: 10px 20px;
+    }
+    .banner_card_2 {
+        right: 13rem;
+        top: 3rem;
+    }
+    .habit_container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 50px 0px;
+    }
+    .run_container {
+        margin: inherit;
+        gap: 20px;
+    }
+    .run_left_item h1 {
+        font-size: 2rem;
+    }
+    .run_left_item{
+        width: 50%;
+    }
+    .run_right_item{
+        width: 50%;
+    }
 }
 
 
 /* mobile responsive */
 @media screen and (max-width:576px) {
-    
+    p {
+        font-size: 16px;
+    }
+    nav{
+        display: none;
+    }
+    .hambergar{
+        display: block;
+        width: 30px;
+    }
+
+    .banner_left_item h1 {
+        font-size: 2.25rem;
+    }
+
+    .banner {
+        padding-top: 0;
+    }
+
+    .miama {
+        font-size: 5rem;
+    }
+
+    .banner_container {
+        padding: 0 20px;
+    }
+    .banner_card_1 {
+        left: 0rem;
+        top: 14rem;
+    }
+    .banner_card_2 {
+        right: 0rem;
+        top: 1rem;
+    }
+    .btn {
+        padding: 12px 16px;
+        min-width: inherit;
+    }
+    .habit_container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .habit h1 {
+        font-size: 2rem;
+    }
+    .run_container {
+        flex-direction: column;
+        margin: inherit;
+        padding: 30px;
+        gap: 40px;
+    }
+    .run_left_item{
+        width: 100%;
+    }
+
+    .run_right_item{
+        width: 100%;
+    }
+    .run {
+        padding-top: 0;
+    }
 }
