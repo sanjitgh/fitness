@@ -6,6 +6,7 @@
 :root {
     --primary-color: #E6533C;
     --text-color: rgba(255, 255, 255, 0.5);
+    --bg-color: black;
 }
 
 body {
@@ -23,10 +24,15 @@ h6 {
 
 p {
     font-size: 14px;
+    line-height: 24px;
+}
+
+section {
+    padding: 80px 0;
 }
 
 .container {
-    max-width: 1140px;
+    max-width: 1280px;
     margin: 0 auto;
     padding: 0 5px;
 }
@@ -53,27 +59,8 @@ p {
 
 /* header style */
 header {
-    background: linear-gradient(to bottom, rgba(17, 17, 17, 1) 0%, rgb(47 47 47) 50%, rgba(17, 17, 17, 1) 100%);
+    background: linear-gradient(to bottom, black -25%, rgb(30, 30, 30) 50%, black 100%);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .nav_wrapper {
     justify-content: space-between;
@@ -172,7 +159,7 @@ nav {
 .banner_card_1 {
     background-color: rgba(255, 255, 255, 0.1);
     position: absolute;
-    left: 6rem;
+    left: 8rem;
     top: 26rem;
     padding: 20px;
     border-radius: 12px;
@@ -182,6 +169,7 @@ nav {
     width: 180px;
     height: 70px;
     align-items: center;
+    backdrop-filter: blur(10px);
 }
 
 .banner_card_1 img {
@@ -200,6 +188,7 @@ nav {
     height: 70px;
     right: -6rem;
     top: 8rem;
+    backdrop-filter: blur(10px);
 }
 
 .banner_card_2 h1 {
@@ -214,4 +203,46 @@ nav {
 .banner_card_2 p {
     color: var(--text-color) !important;
     font-size: 13px;
+}
+
+/* habit section style */
+.habit {
+    background-color: var(--bg-color);
+    text-align: center;
+}
+
+.habit h1 {
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+
+.habit_paragraph {
+    max-width: 640px !important;
+    margin: 0 auto 60px !important;
+}
+
+.habit p {
+    color: var(--text-color);
+    line-height: 24px;
+    max-width: 230px;
+    margin: auto;
+}
+
+.habit_container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+}
+
+.habit_single_item img {
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    border-radius: 100%;
+    width: 180px;
+    height: 180px;
+    margin-bottom: 30px;
+}
+
+.habit_single_item h3 {
+    font-size: 1.125rem;
+    margin-bottom: 0.4rem;
 }
