@@ -1,0 +1,18 @@
+
+/* laptop responsive */
+@media screen and (max-width:1440px) {
+    .container{
+        max-width: 1060px;
+    }
+}
+
+/* tablet responsive */
+@media screen and (min-width:576px) and (max-width:992px) {
+    
+}
+
+
+/* mobile responsive */
+@media screen and (max-width:576px) {
+    
+}
