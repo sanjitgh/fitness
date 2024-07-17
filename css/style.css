@@ -122,7 +122,7 @@ nav {
 }
 
 .miama {
-    font-family: 'Miama';
+    font-family: 'Miama', sans-serif;
     font-size: 10rem;
     line-height: 0;
     font-weight: normal;
@@ -307,7 +307,6 @@ nav {
 .training_container {
     display: grid;
     grid-template-columns: 0.9fr 1.2fr 0.9fr;
-    grid-template-columns: repeat();
 }
 
 .training_container_2 {
