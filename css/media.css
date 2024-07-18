@@ -107,7 +107,7 @@
     }
 
     .banner_button_container {
-        justify-content: center;
+        justify-content: start;
     }
 
     .miama {
@@ -129,8 +129,8 @@
     }
 
     .hero_btn{
-        min-width: auto;
-        padding: 12px 18px;
+        min-width: inherit;
+        padding: 14px 20px;
     }
 
     .habit_container {
@@ -225,6 +225,14 @@
 
 @media screen and (max-width:400px) {
     .btn {
-        font-size: 15px;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width:374px) {
+
+    .hero_btn{
+        min-width: inherit;
+        padding: 14px;
     }
 }
