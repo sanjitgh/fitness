@@ -57,9 +57,10 @@ section {
     font-size: 18px;
     font-weight: 600;
     border-radius: 50px;
-    padding: 12px 0;
+    padding: 14px 0;
     cursor: pointer;
     min-width: 224px;
+    border: 1px;
 }
 
 /* header style */
@@ -153,7 +154,7 @@ nav {
 
 .banner_button_container {
     gap: 10px;
-
+    align-items: center;
 }
 
 .btn_download {
