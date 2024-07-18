@@ -1,9 +1,9 @@
-
 /* laptop responsive */
 @media screen and (max-width:1440px) {
-    .container{
+    .container {
         max-width: 1060px;
     }
+
     .banner_card_1 {
         left: 3rem;
     }
@@ -11,54 +11,74 @@
 
 /* tablet responsive */
 @media screen and (max-width:992px) {
-    .container{
+    .container {
         padding: 0 15px;
     }
+
     .banner_left_item {
         width: 100%;
     }
+
     .banner_right_item {
         width: 100%;
     }
+
     .banner_container {
         flex-direction: column;
         padding: 0 60px;
         gap: 50px;
     }
+
     .banner_right_item {
         justify-content: center;
     }
+
     .banner_card_1 {
         left: 13rem;
         top: 22rem;
     }
-    .banner_card_1, .banner_card_2{
+
+    .banner_card_1,
+    .banner_card_2 {
         width: auto;
         padding: 10px 20px;
     }
+
     .banner_card_2 {
         right: 13rem;
         top: 3rem;
     }
+
     .habit_container {
         grid-template-columns: repeat(2, 1fr);
         gap: 50px 0px;
     }
+
     .run_container {
         margin: inherit;
         gap: 20px;
     }
-    .run_left_item h1, .training h1 {
+
+    .run_left_item h1,
+    .training h1 {
         font-size: 2rem;
     }
-    .run_left_item{
+
+    .run_left_item {
         width: 50%;
     }
-    .run_right_item{
+
+    .run_right_item {
         width: 50%;
     }
+
     .t3 {
         transform: scale(1.5);
+    }
+
+    .calculator_container {
+        grid-template-columns: 1fr;
+        gap: 60px;
     }
 }
 
@@ -68,10 +88,12 @@
     p {
         font-size: 16px;
     }
-    nav{
+
+    nav {
         display: none;
     }
-    .hambergar{
+
+    .hambergar {
         display: block;
         width: 30px;
     }
@@ -95,69 +117,113 @@
     .banner_container {
         padding: 0 20px;
     }
+
     .banner_card_1 {
         left: 0rem;
         top: 14rem;
     }
+
     .banner_card_2 {
         right: 0rem;
         top: 1rem;
     }
+
     .btn {
         padding: 12px 18px;
         min-width: inherit;
     }
+
     .habit_container {
         grid-template-columns: repeat(1, 1fr);
     }
+
     .habit h1 {
         font-size: 2rem;
     }
+
     .run_container {
         flex-direction: column;
         margin: inherit;
         padding: 30px;
         gap: 40px;
     }
-    .run_left_item{
+
+    .run_left_item {
         width: 100%;
     }
 
-    .run_right_item{
+    .run_right_item {
         width: 100%;
     }
-    .run, .habit {
+
+    .run,
+    .habit {
         padding-top: 0;
     }
-    .t_overlay-3 , .t_overlay-6{
+
+    .t_overlay-3,
+    .t_overlay-6 {
         display: none;
     }
+
     .training_container {
         grid-template-columns: 1fr 1fr;
     }
-    .t2, .t4 {
+
+    .t2,
+    .t4 {
         transform: scale(1.5);
     }
+
     .training_container_2 {
         display: grid;
         grid-template-columns: 0.9fr 1.1fr;
     }
-    .t_overlay-1 span, .t_overlay-5 span {
+
+    .t_overlay-1 span,
+    .t_overlay-5 span {
         bottom: 20px;
         left: 10px;
     }
+
     .t_overlay-4 span {
         top: 75px;
         right: 0;
         left: 10px;
     }
+
     .t_overlay-2 span {
         top: 15px;
         left: 15px;
     }
+
+    .cal_left_item h2 {
+        font-size: 1.2rem;
+        margin-bottom: 2rem;
+    }
+
+    .cal_right_item h2 {
+        font-size: 1.2rem;
+        margin-bottom: 14px;
+    }
+
+    .bmi h1 {
+        font-size: 1.75rem;
+    }
+
+    .bmi_table,
+    th,
+    td {
+        width: 100%;
+    }
+
+    table.bmi_table th,
+    td {
+        width: 50%;
+    }
 }
 
-@media screen and (max-width:400px){
+@media screen and (max-width:400px) {
     .btn {
         font-size: 16px;
     }
