@@ -80,6 +80,13 @@
         grid-template-columns: 1fr;
         gap: 60px;
     }
+    .footer_primary{
+        grid-template-columns: 1fr;
+        gap: 80px;
+    }
+    footer {
+        padding-top: 50px;
+    }
 }
 
 
@@ -133,11 +140,12 @@
         padding: 14px 20px;
     }
 
-    .habit_container {
-        grid-template-columns: repeat(1, 1fr);
+    .habit_container, 
+    .team_container{
+        grid-template-columns: 1fr;
     }
 
-    .habit h1 {
+    .habit h1 , .our_team h1{
         font-size: 2rem;
     }
 
@@ -220,6 +228,16 @@
     table.bmi_table th,
     td {
         width: 50%;
+    }
+    .btn {
+        min-width: 180px;
+    }
+    .footer_link_container {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    footer {
+        padding-top: 30px;
     }
 }
 
