@@ -236,7 +236,7 @@
         width: 50%;
     }
     .btn {
-        min-width: auto;
+        min-width: 170px;
     }
     .footer_link_container {
         grid-template-columns: 1fr;
