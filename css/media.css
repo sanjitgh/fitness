@@ -152,6 +152,7 @@
 
     .habit h1 , .our_team h1, .price h1{
         font-size: 2rem;
+        padding-top: 10px;
     }
 
     .run_container {
