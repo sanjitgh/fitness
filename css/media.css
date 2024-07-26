@@ -117,7 +117,7 @@
     }
 
     .banner_button_container {
-        justify-content: start;
+        justify-content: space-between;
     }
 
     .miama {
@@ -235,7 +235,7 @@
         width: 50%;
     }
     .btn {
-        min-width: 180px;
+        min-width: auto;
     }
     .footer_link_container {
         grid-template-columns: 1fr;
