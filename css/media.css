@@ -87,6 +87,9 @@
     footer {
         padding-top: 50px;
     }
+    .btn_price {
+        min-width: 180px;
+    }
 }
 
 
@@ -141,11 +144,13 @@
     }
 
     .habit_container, 
-    .team_container{
+    .team_container,
+    .price_container
+    {
         grid-template-columns: 1fr;
     }
 
-    .habit h1 , .our_team h1{
+    .habit h1 , .our_team h1, .price h1{
         font-size: 2rem;
     }
 
